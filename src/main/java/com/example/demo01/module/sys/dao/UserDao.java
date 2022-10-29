@@ -60,7 +60,7 @@ public interface UserDao extends BaseMapper<User> {
             " update_user = #{User.updateUser},\n" +
             " update_time = #{User.updateTime} \n" +
             "WHERE id = #{User.id}")
-
+            //你好
     public Integer updateUser(User user);
 
 
